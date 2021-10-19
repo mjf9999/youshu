@@ -1,0 +1,20 @@
+{
+    "name": "morton/youshu",
+    "description": "api",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Morton\\Youshu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "morton",
+            "email": "mojiufeng@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.2 || ^7.0"
+    }
+}
