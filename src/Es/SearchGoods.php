@@ -40,7 +40,7 @@ class SearchGoods extends Basic
     /**
      * @var string
      */
-    protected static $path = '/openapi/goods/category/get';
+    protected static $path = '/openapi/es/searchGoods';
 
     public function __construct($publicKey, $privateKey)
     {
