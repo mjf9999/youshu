@@ -30,7 +30,7 @@ class SpecStock extends Basic
     /**
      * @var string
      */
-    protected static $path = '/openapi/goods/category/get';
+    protected static $path = '/openapi/goods/spec/stock/get';
 
     public function __construct($publicKey, $privateKey)
     {
